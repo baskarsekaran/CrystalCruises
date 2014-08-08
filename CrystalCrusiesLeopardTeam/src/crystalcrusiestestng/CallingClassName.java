@@ -12,6 +12,7 @@ public class CallingClassName {
 		String className = this.getClass().getSimpleName();
 		System.out.println(className);
 		// TODO Auto-generated method stub
+		System.out.println("Edited in GIT Hub");
 		StringWriter sw = new StringWriter();  
 		PrintWriter pw = new PrintWriter(sw);  
 		new Throwable().printStackTrace(pw);  
