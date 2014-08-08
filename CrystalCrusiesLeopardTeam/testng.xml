@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1">
+  <test name="Regression1">
+    <classes>
+      <class name="crystalcrusiestestngdemo.Scenario1IE"></class>
+      <class name="crystalcrusiestestngdemo.Scenario2FireFox"></class>
+    </classes>
+  </test>
+</suite>

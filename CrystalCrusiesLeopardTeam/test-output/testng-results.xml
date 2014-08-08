@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42283" started-at="2014-08-07T21:35:22Z" finished-at="2014-08-07T21:36:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42283" started-at="2014-08-07T21:35:22Z" finished-at="2014-08-07T21:36:04Z">
+      <class name="crystalcrusiestestngdemo.Scenario1IE">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:crystalcrusiestestngdemo.Scenario1IE@a9ae05]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2014-08-07T14:35:22Z" finished-at="2014-08-07T14:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="ScenarioOne()[pri:0, instance:crystalcrusiestestngdemo.Scenario1IE@a9ae05]" name="ScenarioOne" duration-ms="35810" started-at="2014-08-07T14:35:22Z" finished-at="2014-08-07T14:35:57Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Session [eefb66a8-f277-438a-844a-7cdc2a399b7e] was terminated due to FORWARDING_TO_NODE_FAILED
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'BaskarSekaran', ip: '192.168.1.7', os.name: 'Windows NT (unknown)', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_18'
+Session ID: eefb66a8-f277-438a-844a-7cdc2a399b7e
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=eefb66a8-f277-438a-844a-7cdc2a399b7e, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Session [eefb66a8-f277-438a-844a-7cdc2a399b7e] was terminated due to FORWARDING_TO_NODE_FAILED
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'BaskarSekaran', ip: '192.168.1.7', os.name: 'Windows NT (unknown)', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_18'
+Session ID: eefb66a8-f277-438a-844a-7cdc2a399b7e
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=eefb66a8-f277-438a-844a-7cdc2a399b7e, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:324)
+	at crystalcrusiestestngdemo.CrystalCrusiesWrapperMethods.takeSnap(CrystalCrusiesWrapperMethods.java:113)
+	at crystalcrusiestestngdemo.CrystalCrusiesWrapperMethods.invokeApplication(CrystalCrusiesWrapperMethods.java:206)
+	at crystalcrusiestestngdemo.Scenario1IE.ScenarioOne(Scenario1IE.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.grid.common.exception.GridException: Session [eefb66a8-f277-438a-844a-7cdc2a399b7e] was terminated due to FORWARDING_TO_NODE_FAILED
+	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:105)
+	at org.openqa.grid.internal.Registry.getExistingSession(Registry.java:423)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:238)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:119)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	at org.openqa.grid.web.servlet.DriverServlet.doGet(DriverServlet.java:61)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.seleniumhq.jetty7.servlet.ServletHolder.handle(ServletHolder.java:565)
+	at org.seleniumhq.jetty7.servlet.ServletHandler.doHandle(ServletHandler.java:479)
+	at org.seleniumhq.jetty7.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.seleniumhq.jetty7.server.handler.ContextHandler.doHandle(ContextHandler.java:1031)
+	at org.seleniumhq.jetty7.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.seleniumhq.jetty7.server.session.SessionHandler.doScope(SessionHandler.java:186)
+	at org.seleniumhq.jetty7.server.handler.ContextHandler.doScope(ContextHandler.java:965)
+	at org.seleniumhq.jetty7.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.seleniumhq.jetty7.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.seleniumhq.jetty7.server.Server.handle(Server.java:349)
+	at org.seleniumhq.jetty7.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+	at org.seleniumhq.jetty7.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+	at org.seleniumhq.jetty7.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+	at org.seleniumhq.jetty7.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+	at org.seleniumhq.jetty7.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.seleniumhq.jetty7.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.seleniumhq.jetty7.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+	at org.seleniumhq.jetty7.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:254)
+	at org.seleniumhq.jetty7.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.seleniumhq.jetty7.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:crystalcrusiestestngdemo.Scenario1IE@a9ae05]" name="afterMethod" is-config="true" duration-ms="6453" started-at="2014-08-07T14:35:57Z" finished-at="2014-08-07T14:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- crystalcrusiestestngdemo.Scenario1IE -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

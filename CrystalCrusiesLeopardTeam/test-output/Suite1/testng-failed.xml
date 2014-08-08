@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite1]">
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="crystalcrusiestestngdemo.Scenario1IE">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="ScenarioOne"/>
+        </methods>
+      </class> <!-- crystalcrusiestestngdemo.Scenario1IE -->
+      <class name="crystalcrusiestestngdemo.Scenario3Chrome">
+        <methods>
+          <include name="ScenarioThree"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crystalcrusiestestngdemo.Scenario3Chrome -->
+      <class name="crystalcrusiestestngdemo.Scenario2FireFox">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- crystalcrusiestestngdemo.Scenario2FireFox -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
